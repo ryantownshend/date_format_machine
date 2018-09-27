@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "date_format_machine"
+
+
+[packages]
+click           = ">= 6.7"
+click_log       = ">= 0.2.0"
+pendulum        = ">= 2.0.2"
+PyYAML          = "*"
+tabulate        = "*"
+
+[dev-packages]
+pytest      = "*"

@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+*.swp
+*.sublime-*
+*.png
+.cache/
+screenshots/
+build/
+dist/
+dfm.egg-info/
+Pipfile.lock
+.pytest_cache/
+spikes/
