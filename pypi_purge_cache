@@ -1,0 +1,1 @@
+curl -X PURGE https://pypi.python.org/legacy/date-format-machine
