@@ -7,7 +7,7 @@
 screenshots/
 build/
 dist/
-date_format_machine.egg.egg-info/
+date_format_machine.egg-info/
 Pipfile.lock
 .pytest_cache/
 spikes/
