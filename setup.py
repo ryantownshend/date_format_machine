@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='date_format_machine',
-    version='0.4',
+    version='0.5',
     description='Tool for manipulating date strings',
     url='https://github.com/ryantownshend/date_format_machine',
     author='Ryan Townshend',
