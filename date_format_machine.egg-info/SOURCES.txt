@@ -1,9 +1,0 @@
-README.md
-dfm.py
-setup.cfg
-date_format_machine.egg-info/PKG-INFO
-date_format_machine.egg-info/SOURCES.txt
-date_format_machine.egg-info/dependency_links.txt
-date_format_machine.egg-info/entry_points.txt
-date_format_machine.egg-info/requires.txt
-date_format_machine.egg-info/top_level.txt

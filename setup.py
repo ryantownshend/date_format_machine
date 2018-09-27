@@ -16,6 +16,10 @@ setup(
         'PyYAML>=3.13',
     ],
     py_modules=['dfm'],
+    package_data={
+        'dfm':
+            ['dfm_formats.yaml']
+    },
     entry_points={
         'console_scripts': [
             'dfm = dfm:cli',
