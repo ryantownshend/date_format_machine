@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='date_format_machine',
-    version='0.5',
+    version='0.6',
     description='Tool for manipulating date strings',
     url='https://github.com/ryantownshend/date_format_machine',
     author='Ryan Townshend',
@@ -16,15 +16,15 @@ setup(
         'PyYAML>=3.13',
     ],
     py_modules=['dfm'],
-    include_package_data=True,
-    # package_data={
-    #     'dfm':
-    #         ['dfm_formats.yaml']
-    # },
+    packages=['dfm'],
+    package_data={
+        'dfm':
+            ['dfm_formats.yaml']
+    },
     entry_points={
         'console_scripts': [
-            'dfm = dfm:cli',
-            'date_format_machine = dfm:cli',
+            'dfm = dfm.dfm:cli',
+            'date_format_machine = dfm.dfm:cli',
         ],
     },
 )
