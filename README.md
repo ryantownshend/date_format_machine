@@ -1,5 +1,8 @@
 # date format machine - dfm
 
+- `dfm` Date Format Machine, tool for converting a collection of known timestamps and date formats
+
+
 `dfm --list` to show list of known timestamps and formats.
 
     key        type                 example                             note                              action
